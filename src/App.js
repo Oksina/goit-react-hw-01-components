@@ -1,9 +1,9 @@
-import React from 'react'
-import Profile from './components/Profile/Profile'
-import user from '../src/components/Profile/user.json'
+import React from "react";
+import Profile from "./components/Profile/Profile";
+import user from "./user.json";
+console.log(user);
 
-const {name, tag, location, avatar, stats} = {user};
-console.log(user)
+const { name, tag, location, avatar, stats } = { user };
 function App() {
   return (
     <div>
@@ -19,6 +19,3 @@ function App() {
 }
 
 export default App;
-
-
-
