@@ -20,6 +20,8 @@ const Statistics = ({ title, stats }) => {
     );
 };
 
+export default Statistics;
+
 Statistics.defaultProps = {
     title: '',
 };
@@ -33,5 +35,3 @@ Statistics.propTypes = {
         }),
     ).isRequired,
 };
-
-export default Statistics;

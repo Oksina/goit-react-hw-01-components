@@ -28,6 +28,8 @@ const TransactionHistory = ({ items }) => {
     );
 };
 
+export default TransactionHistory;
+
 TransactionHistory.propTypes = {
     items: PropTypes.arrayOf(
         PropTypes.shape({
@@ -38,4 +40,3 @@ TransactionHistory.propTypes = {
         }),
     ).isRequired,
 };
-export default TransactionHistory;

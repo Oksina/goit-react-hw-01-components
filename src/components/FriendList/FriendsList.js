@@ -18,6 +18,8 @@ const FriendsList = ({ friends }) => {
     );
 };
 
+export default FriendsList;
+
 FriendsList.propTypes = {
     friends: PropTypes.arrayOf(
         PropTypes.shape({
@@ -28,4 +30,3 @@ FriendsList.propTypes = {
         }),
     ).isRequired,
 };
-export default FriendsList;
