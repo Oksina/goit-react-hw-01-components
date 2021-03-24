@@ -12,6 +12,9 @@ import statisticalData from '../src/components/Statistics/statistical-data.json'
 import friends from '../src/components/FriendList/friends.json';
 import transactions from '../src/components/TransactionHistory/Transaction.json';
 
+//імпорт стилів
+import './index.css';
+
 function App() {
     return (
         <>

@@ -1,0 +1,43 @@
+.profile {
+    background-color: azure;
+    padding: 0px;
+    margin-right: 100;
+    text-align: center;
+    padding-top: 10px;
+}
+.avatar {
+    width: 150px;
+    background-color: cadetblue;
+    border-radius: 50%;
+}
+.name {
+    font-size: 20px;
+    font-family: fantasy;
+    color: darkslategrey;
+    margin-bottom: 5px;
+}
+.tag {
+    margin: 0;
+    margin-bottom: 10px;
+    color: slategray;
+}
+.location {
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
+.stats {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 20px;
+    max-width: 250px;
+    padding-left: 0px;
+}
+.label {
+    color: mediumpurple;
+    display: flex;
+    font-size: 14px;
+}
+.quantity {
+    font-size: 10px;
+    color: purple;
+}

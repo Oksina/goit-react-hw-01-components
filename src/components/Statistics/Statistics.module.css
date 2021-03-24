@@ -1,0 +1,32 @@
+.statistics {
+    background-color: lightgray;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title {
+    color: rgb(37, 63, 49);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    outline: mediumpurple;
+    margin-bottom: 5px;
+}
+.statList {
+    list-style-type: none;
+    display: flex;
+    width: 300px;
+    padding: 0;
+    background-color: grey;
+}
+.item {
+    border: 2px solid darkslategray;
+    padding: 5px;
+}
+.label {
+    color: white;
+}
+.percentage {
+    font-size: 14px;
+}
