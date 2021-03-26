@@ -1,9 +1,9 @@
 import React from 'react';
 import s from './FriendList.module.css';
 
-const FriendListItem = ({ avatar, name, isOnline, id }) => {
+const FriendListItem = ({ avatar, name, isOnline }) => {
     return (
-        <li className={s.item} key={id}>
+        <li className={s.item}>
             <span
                 className={isOnline ? s.statusOnline : s.statusOffline}
             ></span>
